@@ -29,7 +29,6 @@ public class Ej14 {
 			contador++;
 		}
 		System.out.printf("El resultado de dividir %d entre %d es %d con resto %d",num1,num2,contador,i);
-		
 		teclado.close();
 	}
 

@@ -29,6 +29,7 @@ public class Ej12 {
 		} 
 		if (suma==num1)System.out.println("Es perfecto.");
 		else System.out.println("No es perfecto");
+		
 		teclado.close();
 	}
 

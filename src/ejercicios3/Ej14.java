@@ -27,9 +27,7 @@ public class Ej14 {
 		int contador = 0;
 		int i=0;
 			
-			for(i = num1 ; i>=num2; i=i-num2) {
-				contador++;
-			}
+			for(i = num1 ; i>=num2; i=i-num2,contador++);
 			
 		System.out.printf("El resultado de dividir %d entre %d es %d con resto %d",num1,num2,contador,i);
 		teclado.close();

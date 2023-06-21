@@ -31,8 +31,8 @@ public class Ej15 {
 			+ "-Pulse 5 para la raíz cuadrada\n"
 			+ "-Pulse 6 para la potencia \n"
 			+ "-Pulse 7 para salir");
+		operador = teclado.nextInt();
 		
-		operador = teclado.nextInt();	
 		if (operador < 7) {
 			System.out.println("Introduzca el primer valor: ");
 			num1 = teclado.nextDouble();
